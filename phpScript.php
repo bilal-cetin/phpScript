@@ -1,6 +1,6 @@
 <?php
 
-$connect = mysqli_connect("localhost","root","root","enforsec");
+$connect = mysqli_connect("localhost","root","root","restapi");
 
 $jsondata = file_get_contents("https://jsonplaceholder.typicode.com/posts");
  
